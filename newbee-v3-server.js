@@ -10,6 +10,7 @@
 var server = require('pushstate-server');
 
 server.start({
-  port: 5008,
-  directory: './dist'
+  port: 9527,
+  directory: './dist',
+  open:true,
 });
